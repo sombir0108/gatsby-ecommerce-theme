@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "format": "prettier --write \"{gatsby-*.js,src/**/*.js}\"",
-    "plop": "plop"
+    "plop": "plop",
+    "netlify": "netlify"
   },
   "dependencies": {
     "@netlify/plugin-gatsby": "^3.5.1",
@@ -24,7 +25,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",
-    "react-slick": "^0.29.0"
+    "react-slick": "^0.29.0",
+    "gatsby-plugin-netlify": "^5.0.0",
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^5.0.0",
