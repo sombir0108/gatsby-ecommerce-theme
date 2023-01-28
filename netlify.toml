@@ -1,5 +1,5 @@
 [build]
-  command = "gatsby build && gatsby deploy --prod --dir=publlic --repo=https://sombir0108@bitbucket.org:sombir0108/test-netlify.git --branch=master"
+  command = "gatsby build && netlify deploy --prod --dir=publlic --repo=https://sombir0108@bitbucket.org:sombir0108/test-netlify.git --branch=master"
   functions = "netlify/functions"
   publish = "public"
 
@@ -10,7 +10,7 @@
   package = "netlify-plugin-cypress"
 
   [plugins.inputs.postBuild]
-    enable = false
+    enable = true
 
   [plugins.inputs]
-    enable = false
+    enable = true
